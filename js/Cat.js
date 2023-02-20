@@ -21,7 +21,7 @@ export class Cat {
       checkRadio.forEach((el) => {
         if (el.checked) {
           selected++
-          result.innerHTML += `<ul><li>${el.value} cat</li></ul>` 
+          result.innerHTML += `<ul><li>${el.value} cat</li></ul>`
         }
       })
 
